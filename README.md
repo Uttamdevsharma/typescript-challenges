@@ -38,7 +38,7 @@ type Product = {
 };
 
 // আবার declare করা যাবে না
-// type Product = { price: number };  // ❌ Error
+// type Product = { price: number };  
 
 // কিন্তু extend করতে পারি & operator দিয়ে
 type ProductWithPrice = Product & { price: number };
